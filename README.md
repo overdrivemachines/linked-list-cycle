@@ -32,3 +32,13 @@ The number of the nodes in the list is in the range [0, 104].
 pos is -1 or a valid index in the linked-list.
 
 Follow up: Can you solve it using O(1) (i.e. constant) memory?
+
+### Solution
+
+1. Two node pointers: slow and fast
+2. Move slow by one
+3. move fast by two
+4. if they both meet there is a cycle
+
+Runtime 7 ms Beats 95.77%
+Memory 8.2 MB Beats 48.85%
